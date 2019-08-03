@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Trivia Quiz</string>
+    <string name="question_three">2. How many moons does the earth have?</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="question1">1. Which music figure is known as The King of Pop?</string>
+    <string name="michael">Michael Jackson</string>
+    <string name="elvis">Elvis Presley</string>
+    <string name="justin">Justin Timberlake</string>
+    <string name="question3">3. Who are the founders of Apple? (select all that apply)</string>
+    <string name="jobs">Steve Jobs</string>
+    <string name="gates">Bill Gates</string>
+    <string name="wayne">Ronald Wayne</string>
+    <string name="wozniak">Steve Wozniak</string>
+    <string name="question4">4. What is 5 + 5?</string>
+    <string name="fav_book_hint">Answer in numbers/digits</string>
+    <string name="submit_button">Submit</string>
+</resources>

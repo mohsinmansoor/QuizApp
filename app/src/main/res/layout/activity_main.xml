@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_hint"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/michael_jackson_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="correct"
+                android:text="@string/michael" />
+
+            <RadioButton
+                android:id="@+id/elvis_presley_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/elvis" />
+
+            <RadioButton
+                android:id="@+id/justin_t_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/justin" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_three" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5" />
+
+            <RadioButton
+                android:id="@+id/one_moon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3" />
+
+        <CheckBox
+            android:id="@+id/steve_jobs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jobs" />
+
+        <CheckBox
+            android:id="@+id/bill_gates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gates" />
+
+        <CheckBox
+            android:id="@+id/ronald_wayne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wayne" />
+
+        <CheckBox
+            android:id="@+id/steve_wozniak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wozniak" />
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4" />
+
+        <EditText
+            android:id="@+id/enter_answer_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/fav_book_hint"
+            android:inputType="textCapWords"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="submitQuiz"
+            android:text="@string/submit_button" />
+
+    </LinearLayout>
+</ScrollView>
